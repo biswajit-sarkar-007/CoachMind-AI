@@ -1,11 +1,13 @@
- 
+import Hero from '@/components/Hero'
+import React from 'react'
 
-export default function Home() {
+const Home = () => {
   return (
-    <div>
-     Gi there
+    <div className='grid-background'>
+      <Hero/>
       
-    
     </div>
-  );
+  )
 }
+
+export default Home
