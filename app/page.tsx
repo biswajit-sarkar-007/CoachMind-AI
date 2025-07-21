@@ -3,10 +3,12 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className='grid-background'>
+   <>
+    <div className='grid-background'></div>
       <Hero/>
       
-    </div>
+    
+    </>
   )
 }
 
