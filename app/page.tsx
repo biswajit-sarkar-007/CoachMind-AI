@@ -1,3 +1,4 @@
+import Cta from '@/components/Cta'
 import Faq from '@/components/Faq'
 import Features from '@/components/Features'
 import Hero from '@/components/Hero'
@@ -18,6 +19,7 @@ const Home = () => {
       <HowItWorks/>
       <Testimonial/>
       <Faq/>
+      <Cta/>
           
     </>
   )
