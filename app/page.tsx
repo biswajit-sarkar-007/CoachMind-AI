@@ -1,3 +1,4 @@
+import Faq from '@/components/Faq'
 import Features from '@/components/Features'
 import Hero from '@/components/Hero'
 import HowItWorks from '@/components/HowItWorks'
@@ -16,6 +17,7 @@ const Home = () => {
       <Stats/>
       <HowItWorks/>
       <Testimonial/>
+      <Faq/>
           
     </>
   )
